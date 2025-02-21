@@ -1,9 +1,13 @@
-import React from 'react'
+import ProductForm from "./components/ProductForm";
+import ProductList from "./components/ProductList";
 
-export default function App() {
+function App() {
   return (
-    <div>
-      
-    </div>
-  )
+    <>
+      <ProductForm />
+      <ProductList />
+    </>
+  );
 }
+
+export default App;
